@@ -10,7 +10,10 @@ namespace TicTacToe
     {
         static void Main(string[] args)
         {
-
+            TicTacToeGame ticTacToe = new TicTacToeGame();
+            Console.WriteLine("Welcome To tic tak toe game");
+            ticTacToe.TicTacToe();
+            Console.ReadLine();
         }
     }
 }
